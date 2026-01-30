@@ -1,0 +1,50 @@
+.content-contact {
+    overflow: hidden;
+    position: relative;
+    top: 250px;
+    .title {
+        box-shadow: 0 0 20px rgba(0, 255, 238, 0.5);
+        position: absolute;
+        left: 25%; top: 20px;
+        width: 25%; height: 700px;
+        background-color: rgb(13, 13, 88);
+        border-radius: 2px;
+        border-top: 2px solid aqua;
+        border-left: 2px solid aqua;
+        border-bottom: 2px solid aqua;
+        h1 {
+            position: relative;
+            top: 100px; left: 20%;
+            text-shadow: rgb(0, 255, 238) 1px 0 20px;
+            -webkit-text-stroke: 1px rgb(0, 255, 234);
+            color: rgb(3, 249, 249);
+            font-size: 50px;
+            font-family:'Times New Roman', Times, serif;
+        }
+    }
+    .contact {
+        position: relative;
+        left: 50%;
+        width: 42%;
+        height: 380px;
+        background-color: rgb(33, 52, 199);
+        box-shadow: 0 0 20px rgba(0, 255, 238, 0.5);
+        a {
+            color: white;
+            display: block;
+            margin-top: 20px;
+            position: relative;
+            left: 3%; top: 80px;
+            text-decoration: none;
+            font-size: 30px;
+            font-family:'Courier New', Courier, monospace;
+        }
+        mark {
+            font-weight: bolder;
+            text-decoration: none;
+            background-color: transparent;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    }
+}
