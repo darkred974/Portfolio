@@ -1,6 +1,72 @@
-<div class="professionel" routerLink="/projets-professionnels">
-    <h1>PROJETS PROFESSIONNELS</h1>
+<div class="box">
+    <h2>Vous découvrirez dans cette partie certains projets<br> que j'ai réalisé à EPITECH, ainsi que des projets de mon stage.</h2>
 </div>
-<div class="personnels" routerLink="/projets-personnels">
-    <h1>PROJETS PERSONNELS</h1>
+<div class="epitech">
+    <h2>PROJETS À EPITECH</h2>
+    <p>Dans cette partie, vous verrez des projets que j'ai réalisé durant mes 4 années à EPITECH.
+        Vous verrez ci-dessous certains projets dont j'ai réalisé, si vous en voulez voir davantages
+        n'hésitez pas à me contacter par mail.
+    </p>
+    <div class="project" *ngFor="let projet of epitechProjects">
+        <div class="project-images">
+            <button (click)="prevImage(projet)">‹</button>
+            <img
+                [src]="projet.images[currentImageIndex[projet.id]]"
+                [alt]="projet.title"
+            />
+            <button (click)="nextImage(projet)">›</button>
+        </div>
+
+        <div class="project-content">
+            <h2>{{projet.title}}</h2>
+            <p>{{projet.description}}</p>
+            <a [href]="projet.link">Lien GitHub</a>
+        </div>
+    </div>
 </div>
+<div class="stage">
+    <h2>STAGE</h2>
+    <p>Durant mes années à EPITECH, j'ai réalisé des stages qui ont duré 4 à 5 mois.
+        Vous verrez ci-dessous certains des projets que j'ai réalisé durant mon stage.
+    </p>
+    <div class="project" *ngFor="let projet of stageProjects">
+        <div class="project-images">
+            <button (click)="prevImage(projet)">‹</button>
+            <img
+                [src]="projet.images[currentImageIndex[projet.id]]"
+                [alt]="projet.title"
+            />
+            <button (click)="nextImage(projet)">›</button>
+        </div>
+
+        <div class="project-content">
+            <h2>{{projet.title}}</h2>
+            <p>{{projet.description}}</p>
+            <a [href]="projet.link">Lien GitHub</a>
+        </div>
+    </div>
+</div>
+<div class="webcup">
+    <h2>WEBCUP</h2>
+    <p>J'ai particpé à un événement qui a lieu chaque année qui se nomme, WebCup.
+        C'est un événement qui a pour but de faire un site web en 24 heures sur un thème donné.
+        Vous verrez ci-dessous les sites que j'ai fait durant cette événement, j'ai participé à celui de 2024 et 2025.
+    </p>
+    <div class="project" *ngFor="let projet of webcupProjects">
+        <div class="project-images">
+            <button (click)="prevImage(projet)">‹</button>
+            <img
+                [src]="projet.images[currentImageIndex[projet.id]]"
+                [alt]="projet.title"
+            />
+            <button (click)="nextImage(projet)">›</button>
+        </div>
+
+        <div class="project-content">
+            <h2>{{projet.title}}</h2>
+            <p>{{projet.description}}</p>
+            <a [href]="projet.link">Lien GitHub</a>
+        </div>
+    </div>
+</div>
+
