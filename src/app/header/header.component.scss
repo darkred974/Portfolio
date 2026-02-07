@@ -18,8 +18,14 @@ header {
         background-size: 100% 0;
         background-position: 0 100%;
         &:hover {
-            text-shadow: 0 0 10px rgba(0, 255, 238, 0.8), 0 0 20px rgba(0, 255, 238, 0.6);
+            text-shadow: 0 0 20px rgba(0, 255, 238, 0.8), 0 0 20px rgb(255, 255, 255);
             color: rgb(0, 221, 255);
+            transform: translateY(-4px);
+            border: 2px solid rgb(0, 255, 238);
+            padding: 0.3rem 1rem;
+            transition: 0.3s;
+            box-shadow: 0 5px 20px rgba(0, 255, 238, 0.4);
+            border-radius: 4px;
         }
         .active {
             color: blue;

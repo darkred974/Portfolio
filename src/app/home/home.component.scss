@@ -17,6 +17,7 @@
     background: linear-gradient(135deg, rgb(10, 25, 47), rgb(8, 31, 184));
     background-size: 400% 400%;
     animation: waveMove 6s infinite linear;
+    
     @keyframes waveMove {
         0% { background-position: 0% 50%; }
         50% { background-position: 100% 50%; }
@@ -42,17 +43,9 @@
         overflow: hidden;
         transform: translateY(-50%);
         animation: neonGlow 1.5s infinite alternate ease-in-out;
-        // position: relative;
-        // width: 24em;
-        // margin: 0 auto;
-        // border-right: 2px solid rgba(255,255,255,.75);
-        // font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 80px;
         color: rgb(3, 249, 249);
-        // text-transform: uppercase;
-        // white-space: nowrap;
         -webkit-text-stroke: 1px rgb(0, 255, 234);
-        // transform: translateY(-50%);
     }
     .typewriter-animation {
         animation: 
@@ -87,16 +80,23 @@
     overflow: hidden;
     box-sizing: border-box;
     background: linear-gradient(135deg, #0a1f44, #0d47a1);
+    &:hover {
+        box-shadow:
+            0 0 40px rgba(0, 255, 238, 0.5),
+            inset 0 0 50px rgba(0, 255, 238, 0.15);
+        transform: translateY(-5px);
+    }
     img {
         position: absolute;
-        width: 45%; height: 100%;
+        left: 8%;
+        width: 30%; height: 800px;
     }
     h2 {
         color: rgb(0, 255, 238);
         text-shadow: 0 0 20px rgba(0, 255, 238, 0.8);
         font-size: 70px;
         position: relative;
-        left: 63%;
+        left: 60%; top: 3%;
     }
     p {
         color: white;
@@ -147,7 +147,12 @@
     border: 3px solid rgb(0, 255, 238);
     box-shadow: 0 0 20px rgba(0, 255, 238, 0.5);
     background-color: rgb(22, 22, 160);
-
+    &:hover {
+        box-shadow:
+            0 0 40px rgba(0, 255, 238, 0.5),
+            inset 0 0 50px rgba(0, 255, 238, 0.15);
+        transform: translateY(-5px);
+    }
     h2 {
         font-size: 40px;
         margin-bottom: 10px;
@@ -168,7 +173,14 @@
     position: relative;
     margin-top: 200px;
     border-radius: 15px;
+    border: 2px solid aqua;
     overflow: hidden;
+    &:hover {
+        box-shadow:
+            0 0 40px rgba(0, 255, 238, 0.5),
+            inset 0 0 50px rgba(0, 255, 238, 0.15);
+        transform: translateY(-5px);
+    }
     img {
         width: 46%;
         height: auto;

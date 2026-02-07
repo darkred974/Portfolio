@@ -13,7 +13,7 @@ export class ProjetsService {
                 id: 0,
                 type: "EPITECH",
                 title: "SOKOBAN",
-                description: "SOKOBAN est un jeu qui consiste à déplacer avec votre personnage des boxes sur des points précis. Pour ce projet, nous devions refaire ce jeu tout en apprenant la lib NCURSES avec le langage C mais au lieu de l'afficher avec une lib graphique, nous devions afficher le jeu sur le terminal.",
+                description: "Sokoban est un jeu de réflexion où le joueur doit déplacer des caisses vers des emplacements précis. Ce projet consistait à recréer le jeu en langage C en utilisant la bibliothèque ncurses, avec un affichage entièrement réalisé dans le terminal, sans interface graphique.",
                 link: 'https://github.com/darkred974/sokoban',
                 images: [
                     "../../assets/sokoban_image_1.png",
@@ -25,7 +25,7 @@ export class ProjetsService {
                 id: 1,
                 type: "EPITECH",
                 title: "MON PREMIER RPG",
-                description: "RPG (Role-Playing Game) est un jeu de rôle où vous incarnez un personnage pour suivre une aventure dans un monde imaginaire. C'est un jeu que nous devions réalisé en groupe et qui devait être fait en 4 semaines. C'est aussi la première fois que j'en réalise un. Le langage utilisé durant ce projet était le C avec la librairie CSFML qui est une librairie graphique.",
+                description: "RPG est un jeu de rôle développé en équipe en 4 semaines, en langage C avec la bibliothèque graphique CSFML. Il s'agit de mon premier projet de ce type.",
                 link: 'https://github.com/darkred974/rpg',
                 images: [
                     "../../assets/rpg_image_1.png",
