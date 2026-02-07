@@ -37,7 +37,6 @@
         position: relative;
         margin: 0 auto;
         border-right: 2px solid rgba(255,255,255,.75);
-        // font-size: 30px;
         white-space: nowrap;
         text-shadow: 0 0 15px rgba(0, 255, 238, 0.8);
         overflow: hidden;
@@ -74,12 +73,15 @@
     position: absolute;
     width: 100%;
     left: 0%;
-    top: 100%; height: 800px;
+    top: 100%; 
+    height: 800px;
     border-top: 2px solid aqua;
     border-bottom: 2px solid aqua;
     overflow: hidden;
     box-sizing: border-box;
     background: linear-gradient(135deg, #0a1f44, #0d47a1);
+    transition: all 0.3s ease;
+    
     &:hover {
         box-shadow:
             0 0 40px rgba(0, 255, 238, 0.5),
@@ -89,14 +91,17 @@
     img {
         position: absolute;
         left: 8%;
-        width: 30%; height: 800px;
+        width: 30%; 
+        height: 800px;
+        object-fit: cover;
     }
     h2 {
         color: rgb(0, 255, 238);
         text-shadow: 0 0 20px rgba(0, 255, 238, 0.8);
         font-size: 70px;
         position: relative;
-        left: 60%; top: 3%;
+        left: 60%; 
+        top: 3%;
     }
     p {
         color: white;
@@ -113,10 +118,10 @@
     position: relative;
     z-index: 1;
     margin-top: 1900px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 20px;
 
     h2 {
         color: rgb(0, 255, 238);
@@ -131,22 +136,25 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .quality {
     width: 20%;
+    min-width: 250px;
     height: 400px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     text-align: center;
     border-radius: 50%;
     border: 3px solid rgb(0, 255, 238);
     box-shadow: 0 0 20px rgba(0, 255, 238, 0.5);
     background-color: rgb(22, 22, 160);
+    transition: all 0.3s ease;
+    
     &:hover {
         box-shadow:
             0 0 40px rgba(0, 255, 238, 0.5),
@@ -162,9 +170,9 @@
     p {
         font-size: 30px;
         color: white;
+        padding: 0 20px;
     }
 }
-
 
 .Projets_part {
     background: linear-gradient(135deg, rgb(3, 15, 55), rgb(0, 36, 84), rgb(3, 249, 249));
@@ -175,6 +183,9 @@
     border-radius: 15px;
     border: 2px solid aqua;
     overflow: hidden;
+    min-height: 500px;
+    transition: all 0.3s ease;
+    
     &:hover {
         box-shadow:
             0 0 40px rgba(0, 255, 238, 0.5),
@@ -201,6 +212,7 @@
         left: 50%;
         font-size: 35px;
         opacity: 0.9;
+        width: 45%;
     }
     .link {
         color: rgb(0, 255, 238);
@@ -227,6 +239,7 @@
     top: 1400px;
     left: 0px;
     border-radius: 15px;
+    min-height: 500px;
 
     img {
         width: 45%;
@@ -234,6 +247,7 @@
         position: absolute;
         left: 55%;
         border-radius: 10px;
+        object-fit: cover;
     }
 
     h1 {
@@ -252,6 +266,7 @@
         left: 5%;
         font-size: 30px;
         opacity: 0.9;
+        width: 45%;
     }
 
     .link {
@@ -266,6 +281,294 @@
         &:hover {
             color: white;
             text-shadow: 0 0 20px rgba(0, 255, 238, 1);
+        }
+    }
+}
+
+/* ============================================ */
+/* MEDIA QUERIES - RESPONSIVE DESIGN */
+/* ============================================ */
+
+/* Tablettes et petits écrans (max-width: 1024px) */
+@media screen and (max-width: 1025px) {
+    .content {
+        .cursor {
+            font-size: 60px;
+        }
+        p {
+            font-size: 24px;
+        }
+    }
+
+    .presentation {
+        height: auto;
+        min-height: 600px;
+        
+        img {
+            position: relative;
+            left: 0;
+            width: 100%;
+            height: 400px;
+        }
+        h2 {
+            position: relative;
+            left: 200px;
+            top: 420px;
+            font-size: 50px;
+        }
+        p {
+            left: 5%;
+            width: 90%;
+            top: 500px;
+            font-size: 32px;
+            position: absolute;
+        }
+    }
+
+    .qualities {
+        margin-top: 1200px;
+        
+        h2 {
+            font-size: 70px;
+            margin-bottom: 60px;
+        }
+    }
+
+    .quality {
+        width: 45%;
+        height: 350px;
+        
+        h2 {
+            font-size: 32px;
+        }
+        p {
+            font-size: 24px;
+        }
+    }
+
+    .Projets_part {
+        min-height: 700px;
+        
+        img {
+            position: relative;
+            width: 100%;
+            left: 0;
+        }
+        h2 {
+            position: relative;
+            left: 5%;
+            top: 20px;
+            font-size: 50px;
+        }
+        p {
+            position: relative;
+            left: 5%;
+            width: 90%;
+            top: 30px;
+            font-size: 28px;
+        }
+        .link {
+            position: relative;
+            left: 5%;
+            top: 50px;
+            font-size: 26px;
+            display: block;
+            margin-bottom: 20px;
+        }
+    }
+
+    .Parcours_part {
+        height: auto;
+        min-height: 700px;
+        position: relative;
+        top: auto;
+        margin-top: 200px;
+        
+        img {
+            position: relative;
+            left: 0;
+            width: 100%;
+            height: 400px;
+        }
+        h1 {
+            position: relative;
+            left: 5%;
+            top: 20px;
+            font-size: 50px;
+        }
+        p {
+            position: relative;
+            left: 5%;
+            width: 90%;
+            top: 30px;
+            font-size: 26px;
+        }
+        .link {
+            position: relative;
+            left: 5%;
+            top: 50px;
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+/* Smartphones (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .content {
+        padding-left: 5%;
+        width: 95%;
+        
+        .cursor {
+            font-size: 22px;
+            -webkit-text-stroke: 0.5px rgb(0, 255, 234);
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .presentation {
+        min-height: 550px;
+        
+        img {
+            position: relative;
+            width: 40%; height: 250px;
+            left: 30%;
+            top: 65px;
+        }
+        h2 {
+            z-index: 1;
+            position: absolute;
+            top: 0px;
+            left: 120px;
+            font-size: 28px;
+        }
+        p {
+            top: 310px;
+            font-size: 20px;
+        }
+    }
+
+    .qualities {
+        position: relative;
+        top: 500px;
+        h2 {
+            font-size: 50px;
+            margin-bottom: 40px;
+        }
+    }
+
+    .qualities-list {
+        gap: 20px;
+    }
+
+    .quality {
+        width: 90%;
+        min-width: unset;
+        height: 300px;
+        
+        h2 {
+            font-size: 28px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+
+    .Projets_part {
+        position: relative;
+        top: 400px;
+        h2 {
+            font-size: 36px;
+        }
+        p {
+            font-size: 20px;
+        }
+        .link {
+            font-size: 20px;
+        }
+    }
+}
+
+/* iPhone SE et très petits smartphones (max-width: 375px) */
+@media screen and (max-width: 375px) {
+    .content {
+        .cursor {
+            font-size: 20px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .presentation {
+        min-height: 500px;
+        
+        img {
+            position: relative;
+            width: 40%; height: 250px;
+            left: 30%;
+            top: 60px;
+        }
+        h2 {
+            z-index: 1;
+            position: absolute;
+            top: 0px;
+            left: 100px;
+            font-size: 28px;
+        }
+        p {
+            top: 310px;
+            font-size: 16px;
+        }
+    }
+
+    .qualities {
+        margin-top: 700px;
+        padding: 0 10px;
+        
+        h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+    }
+
+    .quality {
+        height: 280px;
+        
+        h2 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+
+    .Projets_part {
+        h2 {
+            font-size: 28px;
+        }
+        p {
+            font-size: 18px;
+        }
+        .link {
+            font-size: 18px;
+        }
+    }
+
+    .Parcours_part {
+        img {
+            height: 250px;
+        }
+        h1 {
+            font-size: 28px;
+        }
+        p {
+            font-size: 18px;
+        }
+        .link {
+            font-size: 18px;
         }
     }
 }
