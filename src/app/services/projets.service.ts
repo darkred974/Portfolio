@@ -14,7 +14,7 @@ export class ProjetsService {
                 type: "EPITECH",
                 title: "SOKOBAN",
                 description: "SOKOBAN est un jeu qui consiste à déplacer avec votre personnage des boxes sur des points précis. Pour ce projet, nous devions refaire ce jeu tout en apprenant la lib NCURSES avec le langage C mais au lieu de l'afficher avec une lib graphique, nous devions afficher le jeu sur le terminal.",
-                link: '',
+                link: 'https://github.com/darkred974/sokoban',
                 images: [
                     "../../assets/sokoban_image_1.png",
                     "../../assets/sokoban_image_2.png",
@@ -26,7 +26,7 @@ export class ProjetsService {
                 type: "EPITECH",
                 title: "MON PREMIER RPG",
                 description: "RPG (Role-Playing Game) est un jeu de rôle où vous incarnez un personnage pour suivre une aventure dans un monde imaginaire. C'est un jeu que nous devions réalisé en groupe et qui devait être fait en 4 semaines. C'est aussi la première fois que j'en réalise un. Le langage utilisé durant ce projet était le C avec la librairie CSFML qui est une librairie graphique.",
-                link: '',
+                link: 'https://github.com/darkred974/rpg',
                 images: [
                     "../../assets/rpg_image_1.png",
                     "../../assets/rpg_image_2.png",
@@ -35,11 +35,11 @@ export class ProjetsService {
                 ]
             },
             {
-                id: 3,
+                id: 2,
                 type: "STAGE",
                 title: "Archik Intérieur",
                 description: "Archik Intérieur est un site que j'ai fait pour une cliente lors de mon stage. Ce fut le premier projet que j'ai dû réalisé lors de ce stage. Je vous laisse aller le voir par vous-même.",
-                link: '',
+                link: 'https://github.com/darkred974/archik-interieur',
                 images: [
                     "../../assets/archikinterieur_image_1.png",
                     "../../assets/archikinterieur_image_2.png",
@@ -49,30 +49,22 @@ export class ProjetsService {
                 ]
             },
             {
-                id: 4,
+                id: 3,
                 type: "STAGE",
                 title: "QUI VEUT GAGNER LE JACKPOT ?",
                 description: "QUI VEUT GAGNER LE JACKPOT ? est un mini-jeu que j'ai réalisé en Angular durant le dernier mois de mon stage. Ce jeu reprend une machine à sous que l'on peut voir dans les casinos. Je vous laisse aller testez par vous-même.",
-                link: '',
+                link: 'https://github.com/darkred974/qui-veut-gagner-le-jackpot',
                 images: [
                     "../../assets/QVGLJ_image_1.png",
                     "../../assets/QVGLJ_image_2.png",
                 ]
             },
             {
-                id: 5,
-                type: "STAGE",
-                title: "OCI Express",
-                description: "Durant mon deuxième stage, j'ai réalisé un dashboard pour l'entreprise. Ce dashboard permet aux stagiares ainsi qu'à la direction de mieux réaliser leur travail ainsi que mieux organiser certains fichiers à traiter. Je me suis occupé du front.",
-                link: '',
-                images: []
-            },
-            {
-                id: 6,
+                id: 4,
                 type: "WEBCUP",
                 title: "Search Guardian Angel",
                 description: "Search Guardian Angel est un site que j'ai réalisé lors d'un événement qui est la WebCup. Cette événement consiste à faire un site web en 24 heures et le thème était, faire un site pour les personnes qui cherche des anges gardiens pour des services de la vie de tous les jours.",
-                link: '',
+                link: 'https://github.com/darkred974/search-guardian-angel',
                 images: [
                     "../../assets/sga_image_1.png",
                     "../../assets/sga_image_2.png",
@@ -80,11 +72,11 @@ export class ProjetsService {
                 ]
             },
             {
-                id: 7,
+                id: 5,
                 type: "WEBCUP",
                 title: "TheEnd.page",
                 description: "TheEnd.page est un site qui permet aux gens qui sont en fin de projet ou que leur adventure professionnelle se termine, de pouvoir créer sa propre page de départ personnalisée.",
-                link: '',
+                link: 'https://github.com/darkred974/theend-page',
                 images: [
                     "../../assets/theend-page_1.png",
                     "../../assets/theend-page_2.png",
