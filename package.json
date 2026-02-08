@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:Portfolio": "node dist/portfolio/server/server.mjs",
-    "predeploy": "ng build --configuration production --base-href /Portfolio/",
+    "predeploy": "ng build --configuration production --base-href /Portfolio/ cp -r dist/portfolio/browser/* dist/portfolio/",
     "deploy": "gh-pages -d dist/portfolio"
 
   },
