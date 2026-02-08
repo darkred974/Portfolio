@@ -8,13 +8,21 @@
         n'hésitez pas à me contacter par mail.
     </p>
     <div class="project" *ngFor="let projet of epitechProjects">
-        <div class="project-images">
-            <button (click)="prevImage(projet)">‹</button>
+        <div class="project-images"
+            (touchstart)="onTouchStart($event)"
+            (touchend)="onTouchEnd($event, projet)">
+
+            <button *ngIf="!isMobileOrTablet" (click)="prevImage(projet)">‹</button>
+
             <img
                 [src]="projet.images[currentImageIndex[projet.id]]"
                 [alt]="projet.title"
+                (click)="openFullscreen(projet)"
+                [class.slide-left]="slideDirection[projet.id] === 'left'"
+                [class.slide-right]="slideDirection[projet.id] === 'right'"
             />
-            <button (click)="nextImage(projet)">›</button>
+
+            <button *ngIf="!isMobileOrTablet" (click)="nextImage(projet)">›</button>
         </div>
 
         <div class="project-content">
@@ -30,13 +38,20 @@
         Vous verrez ci-dessous certains des projets que j'ai réalisé durant mon stage.
     </p>
     <div class="project" *ngFor="let projet of stageProjects">
-        <div class="project-images">
-            <button (click)="prevImage(projet)">‹</button>
+        <div class="project-images"
+            (touchstart)="onTouchStart($event)"
+            (touchend)="onTouchEnd($event, projet)">
+
+            <button *ngIf="!isMobileOrTablet" (click)="prevImage(projet)">‹</button>
+
             <img
                 [src]="projet.images[currentImageIndex[projet.id]]"
                 [alt]="projet.title"
+                [class.slide-left]="slideDirection[projet.id] === 'left'"
+                [class.slide-right]="slideDirection[projet.id] === 'right'"
             />
-            <button (click)="nextImage(projet)">›</button>
+
+            <button *ngIf="!isMobileOrTablet" (click)="nextImage(projet)">›</button>
         </div>
 
         <div class="project-content">
@@ -53,13 +68,20 @@
         Vous verrez ci-dessous les sites que j'ai fait durant cette événement, j'ai participé à celui de 2024 et 2025.
     </p>
     <div class="project" *ngFor="let projet of webcupProjects">
-        <div class="project-images">
-            <button (click)="prevImage(projet)">‹</button>
+        <div class="project-images"
+            (touchstart)="onTouchStart($event)"
+            (touchend)="onTouchEnd($event, projet)">
+
+            <button *ngIf="!isMobileOrTablet" (click)="prevImage(projet)">‹</button>
+
             <img
                 [src]="projet.images[currentImageIndex[projet.id]]"
                 [alt]="projet.title"
+                [class.slide-left]="slideDirection[projet.id] === 'left'"
+                [class.slide-right]="slideDirection[projet.id] === 'right'"
             />
-            <button (click)="nextImage(projet)">›</button>
+
+            <button *ngIf="!isMobileOrTablet" (click)="nextImage(projet)">›</button>
         </div>
 
         <div class="project-content">
@@ -68,5 +90,32 @@
             <a [href]="projet.link">Lien GitHub</a>
         </div>
     </div>
+</div>
+<div class="fullscreen-overlay" *ngIf="fullscreenProject as project">
+  <button class="close-btn" (click)="closeFullscreen()">✕</button>
+
+  <div class="fullscreen-content"
+       (touchstart)="onTouchStart($event)"
+       (touchend)="onTouchEnd($event, project)">
+
+    <button *ngIf="!isMobileOrTablet"
+            class="nav-btn left"
+            (click)="prevImage(project)">
+      ‹
+    </button>
+
+    <img
+      [src]="project.images[currentImageIndex[project.id]]"
+      [alt]="project.title"
+      [class.slide-left]="slideDirection[project.id] === 'left'"
+      [class.slide-right]="slideDirection[project.id] === 'right'"
+    />
+
+    <button *ngIf="!isMobileOrTablet"
+            class="nav-btn right"
+            (click)="nextImage(project)">
+      ›
+    </button>
+  </div>
 </div>
 
