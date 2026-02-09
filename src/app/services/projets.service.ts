@@ -13,7 +13,7 @@ export class ProjetsService {
                 id: 0,
                 type: "EPITECH",
                 title: "SOKOBAN",
-                description: "Sokoban est un jeu de réflexion où le joueur doit déplacer des caisses vers des emplacements précis. Ce projet consistait à recréer le jeu en langage C en utilisant la bibliothèque ncurses, avec un affichage entièrement réalisé dans le terminal, sans interface graphique.",
+                description: "Sokoban est un jeu de réflexion recréé en C avec la bibliothèque ncurses, entièrement jouable dans le terminal, sans interface graphique.",
                 link: 'https://github.com/darkred974/sokoban',
                 images: [
                     "./assets/sokoban_image_1.png",
@@ -63,7 +63,7 @@ export class ProjetsService {
                 id: 4,
                 type: "WEBCUP",
                 title: "Search Guardian Angel",
-                description: "Search Guardian Angel est un site que j'ai réalisé lors d'un événement qui est la WebCup. Cette événement consiste à faire un site web en 24 heures et le thème était, faire un site pour les personnes qui cherche des anges gardiens pour des services de la vie de tous les jours.",
+                description: "Search Guardian Angel est un site web développé en 24 heures lors de la WebCup, visant à mettre en relation des personnes avec des anges gardiens pour des services du quotidien.",
                 link: 'https://github.com/darkred974/search-guardian-angel',
                 images: [
                     "./assets/sga_image_1.png",

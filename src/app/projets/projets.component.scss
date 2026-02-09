@@ -62,6 +62,7 @@
         transform: translateY(-5px);
     }
     h2 {
+        position: relative;
         text-align: center;
         color: rgb(0, 255, 238);
         font-size: 50px;
@@ -165,7 +166,7 @@
             h2 {
                 color: rgb(0, 255, 238);
                 position: relative;
-                top: 1%;
+                top: 0%;
                 font-size: 35px;
                 text-align: center;
                 text-shadow: 0 0 15px rgba(0, 255, 238, 0.8);
@@ -174,7 +175,7 @@
             p {
                 color: white;
                 position: absolute;
-                font-size: 30px;
+                font-size: 28px;
                 opacity: 0.9;
                 text-align: center;
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -184,7 +185,7 @@
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
                 position: absolute;
                 top: 78%;
-                left: 43%;
+                left: 41%;
                 text-decoration: none;
                 padding: 0.5rem 1.5rem;
                 border: 2px solid rgba(0, 255, 238, 0.5);
