@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterLink, RouterModule, RouterOutlet } from '@angular/router';
+import { LanguageService } from '../services/language.service';
 
 @Component({
   selector: 'app-home',
@@ -9,5 +10,7 @@ import { RouterLink, RouterModule, RouterOutlet } from '@angular/router';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
+
+  constructor(public languageService: LanguageService) {}
 
 }

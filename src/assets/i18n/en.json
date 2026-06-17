@@ -1,11 +1,37 @@
 {
-  "NAV": {
-    "HOME": "Home",
-    "PROJECTS": "Projects",
-    "CONTACT": "Contact"
+  "header": {
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact",
+    "parcours": "Career"
   },
-  "HOME": {
-    "TITLE": "Front-End Developer",
-    "WELCOME": "Welcome to my portfolio"
+
+  "home": {
+    "title": "WELCOME TO MY PORTFOLIO",
+    "intro": "Never give up, even in the hardest moments",
+
+    "about_title": "WHO AM I?",
+    "about_text": "Front-End Developer with over 3 years of experience, specialized in web development and interested in video games and digital technologies. Passionate about the world of games and toys, I aim to use my technical skills, creativity, and communication abilities in an environment that combines innovation and user experience. Hard-working and motivated, I enjoy taking on new challenges and continuously improving my skills.",
+
+    "qualities_title": "My qualities",
+
+    "quality_invested_title": "INVESTED",
+    "quality_invested_text": "I put a lot of effort and attention into my work",
+
+    "quality_mind_title": "QUICK THINKER",
+    "quality_mind_text": "I quickly absorb new information, which allows me to be efficient and effective in my work.",
+
+    "quality_persistent_title": "PERSISTENT",
+    "quality_persistent_text": "I do not give up easily and keep working despite difficulties, obstacles, or failures.",
+
+    "projects_title": "PROJECTS",
+    "projects_text": "In this section, you will find all the projects I have completed to give you an overview of my skills in software development, including web and game development, with the different programming languages I have used.",
+
+    "projects_button": "Go to Projects",
+
+    "parcours_title": "CAREER",
+    "parcours_text": "Discover my academic journey in software development at EPITECH. I also present my internship experiences in companies, as well as my professional experience running LEGO workshops for children, combining education and passion.",
+
+    "parcours_button": "Go to Career"
   }
 }

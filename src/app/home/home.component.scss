@@ -9,13 +9,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
     padding-left: 3%;
 
     background: linear-gradient(135deg, rgb(10, 25, 47), rgb(8, 31, 184));
     background-size: 400% 400%;
     animation: waveMove 6s infinite linear;
-    
+
     @keyframes waveMove {
         0% { background-position: 0% 50%; }
         50% { background-position: 100% 50%; }
@@ -24,46 +25,93 @@
 
     @keyframes neonGlow {
         0%, 100% {
-            text-shadow: 0 0 10px rgba(0, 255, 238, 0.8), 0 0 20px rgba(0, 255, 238, 0.6);
+            text-shadow: 0 0 10px rgba(0, 255, 238, 0.8),
+                         0 0 20px rgba(0, 255, 238, 0.6);
         }
+
         50% {
-            text-shadow: 0 0 20px rgba(0, 255, 238, 1), 0 0 40px rgba(0, 255, 238, 0.8);
+            text-shadow: 0 0 20px rgba(0, 255, 238, 1),
+                         0 0 40px rgba(0, 255, 238, 0.8);
         }
     }
 
     .cursor {
         position: relative;
-        margin: 0 auto;
+        margin: 0;
+        left: 0;
         border-right: 2px solid rgba(255,255,255,.75);
         white-space: nowrap;
-        text-shadow: 0 0 15px rgba(0, 255, 238, 0.8);
         overflow: hidden;
-        transform: translateY(-50%);
-        animation: neonGlow 1.5s infinite alternate ease-in-out;
-        font-size: 80px;
+        text-shadow: 0 0 15px rgba(0, 255, 238, 0.8);
+        font-size: clamp(100px, 10vw, 100px);
         color: rgb(3, 249, 249);
         -webkit-text-stroke: 1px rgb(0, 255, 234);
-    }
-    .typewriter-animation {
-        animation: 
-        typewriter 5s steps(50) 1s 1 normal both, 
-        blinkingCursor 500ms steps(50) infinite normal;
-    }
-    @keyframes typewriter {
-        from { width: 0; }
-        to { width: 100%; }
-    }
-    @keyframes blinkingCursor{
-        from { border-right-color: rgba(255,255,255,.75); }
-        to { border-right-color: transparent; }
+        transform-origin: center;
+        animation:
+            neonGlow 1.5s infinite alternate ease-in-out;
     }
 
+
+
+    .typewriter-animation {
+        animation:
+        typewriter 5s steps(50) 1s 1 normal both,
+        blinkingCursor 500ms steps(50) infinite normal;
+    }
+
+
+
+    @keyframes typewriter {
+        from {
+            width: 0;
+        }
+        to {
+            width: 100%;
+        }
+    }
+
+
+
+    @keyframes blinkingCursor {
+        from {
+            border-right-color: rgba(255,255,255,.75);
+        }
+        to {
+            border-right-color: transparent;
+        }
+    }
+
+
+
     p {
-        font-size: 30px;
+        margin-top: 25px;
+        font-size: clamp(18px, 2.5vw, 30px);
         font-style: italic;
         color: rgb(3, 249, 249);
-        animation: neonGlow 1.5s infinite alternate ease-in-out;
-        opacity: 0.8;
+        opacity: 0;
+        animation:
+            slideUp 1.2s ease forwards,
+            neonGlow 1.5s infinite alternate ease-in-out;
+
+
+        animation-delay: 5s;
+
+    }
+
+
+
+    @keyframes slideUp {
+        from {
+            opacity: 0;
+            transform:
+            translateY(80px);
+        }
+
+        to {
+            opacity: 0.8;
+            transform:
+            translateY(0);
+        }
     }
 }
 
@@ -232,20 +280,27 @@
     background: linear-gradient(135deg, rgb(10, 10, 50), rgb(0, 50, 120), rgb(3, 249, 249));
     box-shadow: 0px 0px 30px rgba(0, 255, 255, 0.6);
     width: 100%;
-    height: 59%;
-    position: absolute;
-    top: 3500px;
-    left: 0px;
+    position: relative;
+    margin-top: 200px;
     border-radius: 15px;
+    border: 2px solid aqua;
+    overflow: hidden;
     min-height: 500px;
+    transition: all 0.3s ease;
+
+    &:hover {
+        box-shadow:
+            0 0 40px rgba(0, 255, 238, 0.5),
+            inset 0 0 50px rgba(0, 255, 238, 0.15);
+        transform: translateY(-5px);
+    }
 
     img {
-        width: 45%;
-        height: 100%;
-        position: absolute;
-        left: 55%;
+        width: 46%;
+        height: auto;
+        margin-left: 54%;
+        display: block;
         border-radius: 10px;
-        object-fit: cover;
     }
 
     h1 {
@@ -262,13 +317,14 @@
         position: absolute;
         top: 30%;
         left: 5%;
-        font-size: 30px;
+        font-size: 35px;
         opacity: 0.9;
         width: 45%;
     }
 
     .link {
         color: rgb(0, 255, 238);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         position: absolute;
         top: 90%;
         left: 5%;
@@ -376,17 +432,12 @@
     }
 
     .Parcours_part {
-        height: auto;
         min-height: 700px;
-        position: relative;
-        top: auto;
-        margin-top: 200px;
-        
+
         img {
-            position: relative;
-            left: 0;
+            margin-left: 0;
             width: 100%;
-            height: 400px;
+            height: auto;
         }
         h1 {
             position: relative;
@@ -399,13 +450,14 @@
             left: 5%;
             width: 90%;
             top: 30px;
-            font-size: 26px;
+            font-size: 28px;
         }
         .link {
             position: relative;
             left: 5%;
             top: 50px;
             font-size: 26px;
+            display: block;
             margin-bottom: 20px;
         }
     }
@@ -487,6 +539,18 @@
             font-size: 20px;
         }
     }
+
+    .Parcours_part {
+        h1 {
+            font-size: 36px;
+        }
+        p {
+            font-size: 20px;
+        }
+        .link {
+            font-size: 20px;
+        }
+    }
 }
 
 /* iPhone SE et très petits smartphones (max-width: 375px) */
@@ -557,9 +621,6 @@
     }
 
     .Parcours_part {
-        img {
-            height: 250px;
-        }
         h1 {
             font-size: 28px;
         }

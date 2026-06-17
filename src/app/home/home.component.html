@@ -1,59 +1,42 @@
 <div class="content">
-    <h1 class="cursor typewriter-animation">BIENVENUE SUR MON PORTFOLIO</h1>
-    <p>Ne jamais laisser tomber, même dans les moments les plus durs</p>
+    <h1 class="cursor typewriter-animation">{{ languageService.translate('home.title') }}</h1>
+    <p>{{ languageService.translate('home.intro') }}</p>
 </div>
 <div class="presentation">
     <img src="./assets/Profile_picture.jpg" alt="Profile picture">
-    <h2>QUI SUIS-JE ?</h2>
-    <p>Développeur Front-End avec plus de 3 ans d’expérience, spécialisé dans le
-        développement web et intéressé par le domaine du jeu vidéo et du 
-        numérique. Passionné par l’univers du jeu et du jouet, je souhaite 
-        mettre mes compétences techniques, ma créativité et mon sens du 
-        relationnel au service d’un environnement mêlant innovation et 
-        expérience client. Rigoureux et motivé, j’aime relever de nouveaux défis 
-        et continuer à développer mes compétences.</p>
+    <h2>{{ languageService.translate('home.about_title') }}</h2>
+    <p>{{ languageService.translate('home.about_text') }}</p>
 </div>
 <div class="qualities">
-    <h2>Mes qualités</h2>
+    <h2>{{ languageService.translate('home.qualities_title') }}</h2>
     <div class="qualities-list">
-
         <div class="quality">
-            <h2>INVESTI</h2>
-            <p>Je mets beaucoup d'efforts et d'attention dans mon travail</p>
+            <h2>{{ languageService.translate('home.quality_invested_title') }}</h2>
+            <p>{{ languageService.translate('home.quality_invested_text') }}</p>
         </div>
         <div class="quality">
-            <h2>VIF D'ESPRIT</h2>
-            <p>J'assimile rapidement les nouvelles informations, 
-                ce qui me permet d'être efficace et performant <br>
-                dans mon travail.
-            </p>
+            <h2>{{ languageService.translate('home.quality_mind_title') }}</h2>
+            <p>{{ languageService.translate('home.quality_mind_text') }}</p>
         </div>
         <div class="quality">
-            <h2>PERSÉVÉRANT</h2>
-            <p>Je ne renonce pas si facilement,<br>
-                je continue à travailler malgré<br>
-                les difficultés, les obstacles<br>
-                ou les échecs.</p>
+            <h2>{{ languageService.translate('home.quality_persistent_title') }}</h2>
+            <p>{{ languageService.translate('home.quality_persistent_text') }}</p>
+        </div>
+        <div class="quality">
+            <h2>{{ languageService.translate('home.quality_persistent_title') }}</h2>
+            <p>{{ languageService.translate('home.quality_persistent_text') }}</p>
         </div>
     </div>
 </div>
 <div class="Projets_part">
     <img src="./assets/Coding_picture.jpg" alt="Image Projets">
-    <h2>PROJETS</h2>
-    <p>Dans cette partie, vous trouverez tous les projets que j'ai réalisé
-        pour que vous ayez un aperçu de mes compétences dans le développement informatique,
-        dans différents domaines qui sont le développement web et le développement
-        de jeux vidéos, avec les différents langages de programmations que j'ai utilisé sur
-        ces différents projets.</p>
-    <a class="link" routerLink="projets">Vers la page Projets</a>
+    <h2>{{ languageService.translate('home.projects_title') }}</h2>
+    <p>{{ languageService.translate('home.projects_text') }}</p>
+    <a class="link" routerLink="projets">{{ languageService.translate('home.projects_button') }}</a>
 </div>
 <div class="Parcours_part">
     <img src="../../assets/parcours.jpg" alt="Image Parcours">
-    <h1>PARCOURS</h1>
-    <p>Découvrez mon parcours en développement informatique, construit à EPITECH. 
-        J’y présente également mes expériences de stage en entreprise, ainsi que 
-        mon expérience professionnelle en CDDU, où j’ai animé des ateliers LEGO 
-        pour enfants, mêlant pédagogie et passion.
-    </p>
-    <a class="link" routerLink="parcours">Vers la page Parcours</a>
+    <h1>{{ languageService.translate('home.parcours_title') }}</h1>
+    <p>{{ languageService.translate('home.parcours_text') }}</p>
+    <a class="link" routerLink="parcours">{{ languageService.translate('home.parcours_button') }}</a>
 </div>

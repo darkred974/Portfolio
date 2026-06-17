@@ -12,9 +12,13 @@ import { LanguageService } from '../services/language.service';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
+  menuOpen = false;
 
   constructor(public languageService: LanguageService) {}
 
+  toggleMenu() {
+    this.menuOpen = !this.menuOpen;
+  }
 
   changeLanguage() {
     this.languageService.changeLanguage();

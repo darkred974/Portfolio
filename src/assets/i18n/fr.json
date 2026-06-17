@@ -1,11 +1,37 @@
 {
-  "NAV": {
-    "HOME": "Accueil",
-    "PROJECTS": "Projets",
-    "CONTACT": "Contact"
+  "header": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "contact": "Contact",
+    "parcours": "Parcours"
   },
-  "HOME": {
-    "TITLE": "Développeur Front-End",
-    "WELCOME": "Bienvenue sur mon portfolio"
+
+  "home": {
+    "title": "BIENVENUE SUR MON PORTFOLIO",
+    "intro": "Ne jamais laisser tomber, même dans les moments les plus durs",
+
+    "about_title": "QUI SUIS-JE ?",
+    "about_text": "Développeur Front-End avec plus de 3 ans d’expérience, spécialisé dans le développement web et intéressé par le domaine du jeu vidéo et du numérique. Passionné par l’univers du jeu et du jouet, je souhaite mettre mes compétences techniques, ma créativité et mon sens du relationnel au service d’un environnement mêlant innovation et expérience client. Rigoureux et motivé, j’aime relever de nouveaux défis et continuer à développer mes compétences.",
+
+    "qualities_title": "Mes qualités",
+
+    "quality_invested_title": "INVESTI",
+    "quality_invested_text": "Je mets beaucoup d'efforts et d'attention dans mon travail",
+
+    "quality_mind_title": "VIF D'ESPRIT",
+    "quality_mind_text": "J'assimile rapidement les nouvelles informations, ce qui me permet d'être efficace et performant dans mon travail.",
+
+    "quality_persistent_title": "PERSÉVÉRANT",
+    "quality_persistent_text": "Je ne renonce pas si facilement, je continue à travailler malgré les difficultés, les obstacles ou les échecs.",
+
+    "projects_title": "PROJETS",
+    "projects_text": "Dans cette partie, vous trouverez tous les projets que j'ai réalisé pour que vous ayez un aperçu de mes compétences dans le développement informatique, dans différents domaines qui sont le développement web et le développement de jeux vidéos, avec les différents langages de programmations que j'ai utilisé sur ces différents projets.",
+
+    "projects_button": "Vers la page Projets",
+
+    "parcours_title": "PARCOURS",
+    "parcours_text": "Découvrez mon parcours en développement informatique, construit à EPITECH. J’y présente également mes expériences de stage en entreprise, ainsi que mon expérience professionnelle en CDDU, où j’ai animé des ateliers LEGO pour enfants, mêlant pédagogie et passion.",
+
+    "parcours_button": "Vers la page Parcours"
   }
 }
