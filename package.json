@@ -10,7 +10,6 @@
     "serve:ssr:Portfolio": "node dist/portfolio/server/server.mjs",
     "predeploy": "ng build --configuration production --base-href /Portfolio/ && cp -r dist/portfolio/browser/* dist/portfolio/ && rm -rf dist/portfolio/browser",
     "deploy": "gh-pages -d dist/portfolio"
-
   },
   "private": true,
   "dependencies": {
@@ -24,6 +23,8 @@
     "@angular/platform-server": "^17.0.0",
     "@angular/router": "^17.0.0",
     "@angular/ssr": "^17.0.5",
+    "@ngx-translate/core": "^17.0.0",
+    "@ngx-translate/http-loader": "^7.0.0",
     "express": "^4.18.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

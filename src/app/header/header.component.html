@@ -1,8 +1,14 @@
 <header>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <nav>
-        <a class="btn" routerLink="">Accueil</a>
-        <a class="btn" routerLink="projets">Projets</a>
-        <a class="btn" routerLink="contact">Contact</a>
+        <a class="btn" routerLink="">{{ languageService.translate('home') }}</a>
+        <a class="btn" routerLink="projets">{{ languageService.translate('projects') }}</a>
+        <a class="btn" routerLink="parcours">{{ languageService.translate('careers') }}</a>
+        <a class="btn" routerLink="contact">{{ languageService.translate('contact') }}</a>
     </nav>
+    <button (click)="changeLanguage()">
+        <img *ngIf="languageService.language === 'FR'" src="./assets/icons8-france-48.png" alt="FR">
+        <img *ngIf="languageService.language === 'EN'" src="./assets/icons8-united-kingdom-48.png" alt="EN">
+        {{ languageService.language }}
+    </button>
 </header>

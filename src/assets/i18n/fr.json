@@ -1,0 +1,11 @@
+{
+  "NAV": {
+    "HOME": "Accueil",
+    "PROJECTS": "Projets",
+    "CONTACT": "Contact"
+  },
+  "HOME": {
+    "TITLE": "Développeur Front-End",
+    "WELCOME": "Bienvenue sur mon portfolio"
+  }
+}
