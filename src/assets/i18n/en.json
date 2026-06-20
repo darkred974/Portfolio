@@ -33,5 +33,56 @@
     "parcours_text": "Discover my academic journey in software development at EPITECH. I also present my internship experiences in companies, as well as my professional experience running LEGO workshops for children, combining education and passion.",
 
     "parcours_button": "Go to Career"
+  },
+  "projects": {
+
+    "intro": "Discover some of the projects I created at EPITECH, as well as projects developed during my internship.",
+
+    "epitechTitle": "EPITECH PROJECTS",
+
+    "epitechDescription": "In this section, you will see some of the projects I worked on during my four years at EPITECH. You will find details of some of the projects I have completed, and if you would like to find out more, please do not hesitate to contact me.",
+
+
+    "stageTitle": "INTERNSHIP",
+
+    "stageDescription": "During my years at EPITECH, I completed internships lasting 4 to 5 months.",
+
+
+    "webcupTitle": "WEBCUP",
+
+    "webcupDescription": "I participated in an annual event called WebCup, where the goal is to create a website within 24 hours.",
+
+    "githubLink": "GitHub Link",
+
+    "sokoban": {
+      "title": "SOKOBAN",
+      "description": "Sokoban is a puzzle game rewritten in C using the ncurses library; it can be played entirely in the terminal, without a graphical user interface."
+    },
+
+    "rpg": {
+      "title": "MY FIRST RPG",
+      "description": "RPG is a role-playing game developed by a team over four weeks, written in C using the CSFML graphics library. This is my first project of this kind."
+    },
+
+    "archik": {
+      "title": "ARCHIK INTERIOR",
+      "description": "Archik Intérior is a website I created for a client during my work placement. It was the first project I had to carry out during that placement. I’ll let you take a look for yourselves."
+    },
+
+    "jackpot": {
+      "title": "WHO WANTS TO WIN THE JACKPOT?",
+      "description": "WHO WANTS TO WIN THE JACKPOT? is a mini-game I built using Angular during the final month of my work placement. The game is modelled on the slot machines you see in casinos. Why not give it a go for yourself?"
+    },
+
+    "sga": {
+      "title": "SEARCH GUARDIAN ANGEL",
+      "description": "Search Guardian Angel is a website developed in 24 hours during the WebCup, designed to connect people with guardian angels for everyday services."
+    },
+
+    "theend": {
+      "title": "THEEND.PAGE",
+      "description": "TheEnd.page is a website that allows people who are coming to the end of a project or whose professional journey is drawing to a close to create their own personalised landing page."
+    }
+
   }
 }

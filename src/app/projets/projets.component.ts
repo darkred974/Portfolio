@@ -5,6 +5,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Projets } from '../models/projets.model';
 import { HostListener } from '@angular/core';
+import { LanguageService } from '../services/language.service';
 
 @Component({
   selector: 'app-projets',
@@ -28,7 +29,7 @@ export class ProjetsComponent implements OnInit {
 
   currentImageIndex: { [key: number]: number } = {};
 
-  constructor(private projetsService: ProjetsService) {}
+  constructor(private projetsService: ProjetsService, public translate: LanguageService) {}
 
   ngOnInit(): void {
     this.epitechProjects = this.projetsService.getByType('EPITECH');

@@ -33,5 +33,50 @@
     "parcours_text": "Découvrez mon parcours en développement informatique, construit à EPITECH. J’y présente également mes expériences de stage en entreprise, ainsi que mon expérience professionnelle en CDDU, où j’ai animé des ateliers LEGO pour enfants, mêlant pédagogie et passion.",
 
     "parcours_button": "Vers la page Parcours"
+  },
+  "projects": {
+
+    "intro": "Vous découvrirez dans cette partie certains projets que j'ai réalisés à EPITECH, ainsi que des projets de mon stage.",
+
+    "epitechTitle": "PROJETS À EPITECH",
+    "epitechDescription": "Dans cette partie, vous verrez des projets que j'ai réalisés durant mes 4 années à EPITECH. Vous trouverez certains projets réalisés, et si vous souhaitez en découvrir davantage, n'hésitez pas à me contacter.",
+
+    "stageTitle": "STAGE",
+    "stageDescription": "Durant mes années à EPITECH, j'ai réalisé des stages de 4 à 5 mois. Vous découvrirez certains projets réalisés durant ces expériences.",
+
+    "webcupTitle": "WEBCUP",
+    "webcupDescription": "J'ai participé à un événement annuel nommé WebCup, dont l'objectif est de créer un site web en 24 heures sur un thème donné.",
+
+    "githubLink": "Lien GitHub",
+
+    "sokoban": {
+      "title": "SOKOBAN",
+      "description": "Sokoban est un jeu de réflexion recréé en C avec la bibliothèque ncurses, entièrement jouable dans le terminal, sans interface graphique."
+    },
+
+    "rpg": {
+      "title": "MON PREMIER RPG",
+      "description": "RPG est un jeu de rôle développé en équipe en 4 semaines, en langage C avec la bibliothèque graphique CSFML. Il s'agit de mon premier projet de ce type."
+    },
+
+    "archik": {
+      "title": "ARCHIK INTÉRIEUR",
+      "description": "Archik Intérieur est un site que j'ai fait pour une cliente lors de mon stage. Ce fut le premier projet que j'ai dû réalisé lors de ce stage. Je vous laisse aller le voir par vous-même."
+    },
+
+    "jackpot": {
+      "title": "QUI VEUT GAGNER LE JACKPOT ?",
+      "description": "QUI VEUT GAGNER LE JACKPOT ? est un mini-jeu que j'ai réalisé en Angular durant le dernier mois de mon stage. Ce jeu reprend une machine à sous que l'on peut voir dans les casinos. Je vous laisse aller testez par vous-même."
+    },
+
+    "sga": {
+      "title": "SEARCH GUARDIAN ANGEL",
+      "description": "Search Guardian Angel est un site web développé en 24 heures lors de la WebCup, visant à mettre en relation des personnes avec des anges gardiens pour des services du quotidien."
+    },
+
+    "theend": {
+      "title": "THEEND.PAGE",
+      "description": "TheEnd.page est un site qui permet aux gens qui sont en fin de projet ou que leur adventure professionnelle se termine, de pouvoir créer sa propre page de départ personnalisée."
+    }
   }
 }

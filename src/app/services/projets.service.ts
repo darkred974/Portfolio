@@ -12,8 +12,8 @@ export class ProjetsService {
             {
                 id: 0,
                 type: "EPITECH",
-                title: "SOKOBAN",
-                description: "Sokoban est un jeu de réflexion recréé en C avec la bibliothèque ncurses, entièrement jouable dans le terminal, sans interface graphique.",
+                title: "projects.sokoban.title",
+                description: "projects.sokoban.description",
                 link: 'https://github.com/darkred974/sokoban',
                 images: [
                     "./assets/sokoban_image_1.png",
@@ -24,8 +24,8 @@ export class ProjetsService {
             {
                 id: 1,
                 type: "EPITECH",
-                title: "MON PREMIER RPG",
-                description: "RPG est un jeu de rôle développé en équipe en 4 semaines, en langage C avec la bibliothèque graphique CSFML. Il s'agit de mon premier projet de ce type.",
+                title: "projects.rpg.title",
+                description: "projects.rpg.description",
                 link: 'https://github.com/darkred974/rpg',
                 images: [
                     "./assets/rpg_image_1.png",
@@ -37,8 +37,8 @@ export class ProjetsService {
             {
                 id: 2,
                 type: "STAGE",
-                title: "Archik Intérieur",
-                description: "Archik Intérieur est un site que j'ai fait pour une cliente lors de mon stage. Ce fut le premier projet que j'ai dû réalisé lors de ce stage. Je vous laisse aller le voir par vous-même.",
+                title: "projects.archik.title",
+                description: "projects.archik.description",
                 link: 'https://github.com/darkred974/archik-interieur',
                 images: [
                     "./assets/archikinterieur_image_1.png",
@@ -51,8 +51,8 @@ export class ProjetsService {
             {
                 id: 3,
                 type: "STAGE",
-                title: "QUI VEUT GAGNER LE JACKPOT ?",
-                description: "QUI VEUT GAGNER LE JACKPOT ? est un mini-jeu que j'ai réalisé en Angular durant le dernier mois de mon stage. Ce jeu reprend une machine à sous que l'on peut voir dans les casinos. Je vous laisse aller testez par vous-même.",
+                title: "projects.jackpot.title",
+                description: "projects.jackpot.description",
                 link: 'https://github.com/darkred974/qui-veut-gagner-le-jackpot',
                 images: [
                     "./assets/QVGLJ_image_1.png",
@@ -62,8 +62,8 @@ export class ProjetsService {
             {
                 id: 4,
                 type: "WEBCUP",
-                title: "Search Guardian Angel",
-                description: "Search Guardian Angel est un site web développé en 24 heures lors de la WebCup, visant à mettre en relation des personnes avec des anges gardiens pour des services du quotidien.",
+                title: "projects.sga.title",
+                description: "projects.sga.description",
                 link: 'https://github.com/darkred974/search-guardian-angel',
                 images: [
                     "./assets/sga_image_1.png",
@@ -74,8 +74,8 @@ export class ProjetsService {
             {
                 id: 5,
                 type: "WEBCUP",
-                title: "TheEnd.page",
-                description: "TheEnd.page est un site qui permet aux gens qui sont en fin de projet ou que leur adventure professionnelle se termine, de pouvoir créer sa propre page de départ personnalisée.",
+                title: "projects.theend.title",
+                description: "projects.theend.description",
                 link: 'https://github.com/darkred974/theend-page',
                 images: [
                     "./assets/theend-page_1.png",
