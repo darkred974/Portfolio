@@ -19,11 +19,11 @@ export class LanguageService {
   async loadTranslations() {
 
     const fr = await firstValueFrom(
-      this.http.get('assets/i18n/fr.json')
+      this.http.get('./assets/i18n/fr.json')
     );
 
     const en = await firstValueFrom(
-      this.http.get('assets/i18n/en.json')
+      this.http.get('./assets/i18n/en.json')
     );
 
     this.translations.FR = fr;
