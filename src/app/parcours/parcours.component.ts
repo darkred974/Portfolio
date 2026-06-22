@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { LanguageService } from '../services/language.service';
 
 @Component({
   selector: 'app-parcours',
@@ -9,4 +10,5 @@ import { Component } from '@angular/core';
 })
 export class ParcoursComponent {
 
+    constructor(public languageService: LanguageService) {}
 }

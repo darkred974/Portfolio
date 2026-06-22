@@ -344,10 +344,10 @@
 /* ============================================ */
 
 /* Tablettes et petits écrans (max-width: 1024px) */
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1024px) {
     .content {
         .cursor {
-            font-size: 60px;
+            font-size: 55px;
         }
         p {
             font-size: 24px;
@@ -380,7 +380,7 @@
     }
 
     .qualities {
-        margin-top: 1200px;
+        margin-top: 2200px;
         
         h2 {
             font-size: 70px;
@@ -390,13 +390,13 @@
 
     .quality {
         width: 45%;
-        height: 350px;
+        height: 450px;
         
         h2 {
             font-size: 32px;
         }
         p {
-            font-size: 24px;
+            font-size: 30px;
         }
     }
 
@@ -418,13 +418,12 @@
             position: relative;
             left: 5%;
             width: 90%;
-            top: 30px;
             font-size: 28px;
         }
         .link {
             position: relative;
             left: 5%;
-            top: 50px;
+            top: 0px;
             font-size: 26px;
             display: block;
             margin-bottom: 20px;
@@ -449,13 +448,11 @@
             position: relative;
             left: 5%;
             width: 90%;
-            top: 30px;
             font-size: 28px;
         }
         .link {
             position: relative;
             left: 5%;
-            top: 50px;
             font-size: 26px;
             display: block;
             margin-bottom: 20px;
@@ -541,6 +538,8 @@
     }
 
     .Parcours_part {
+        position: relative;
+        top: 200px;
         h1 {
             font-size: 36px;
         }

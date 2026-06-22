@@ -16,14 +16,13 @@
     align-items: flex-start;
     padding-left: 3%;
 
-
     background: linear-gradient(135deg, rgb(10, 25, 47), rgb(8, 31, 184));
     background-size: 400% 400%;
     animation: waveMove 6s infinite linear;
-    
+
     @keyframes waveMove {
-        0% { background-position: 0% 50%; }
-        50% { background-position: 100% 50%; }
+        0%   { background-position: 0% 50%; }
+        50%  { background-position: 100% 50%; }
         100% { background-position: 0% 50%; }
     }
 
@@ -41,10 +40,10 @@
         font-size: 60px;
         color: rgb(3, 249, 249);
         text-transform: uppercase;
-        white-space: nowrap;
         animation: neonGlow 1.5s infinite alternate ease-in-out;
         -webkit-text-stroke: 1px rgb(0, 255, 234);
     }
+
     p {
         margin-top: 25px;
         font-size: clamp(18px, 2.5vw, 30px);
@@ -53,24 +52,30 @@
     }
 }
 
-.introduction {
+/* Mixin interne réutilisable pour les cards (introduction, epitech, contrat) */
+%card-base {
     background: linear-gradient(135deg, rgb(3, 15, 55), rgb(0, 36, 84), rgb(3, 249, 249));
     border: 2px solid aqua;
     z-index: 0;
     position: relative;
     width: 100%;
-    top: 1050px;
-    border: 2px solid aqua;
     padding: 3rem 0;
     box-shadow: 0 0 20px rgba(0, 255, 238, 0.3);
     border-radius: 15px;
     transition: all 0.3s ease;
+
     &:hover {
         box-shadow:
             0 0 40px rgba(0, 255, 238, 0.5),
             inset 0 0 50px rgba(0, 255, 238, 0.15);
         transform: translateY(-5px);
     }
+}
+
+.introduction {
+    @extend %card-base;
+    top: 1050px;
+
     h2 {
         position: relative;
         top: 0;
@@ -79,6 +84,7 @@
         font-size: 65px;
         text-shadow: 0 0 15px rgba(0, 255, 238, 0.8);
     }
+
     p {
         position: relative;
         color: white;
@@ -92,112 +98,19 @@
 }
 
 .epitech {
-    .first-year {
-        background: linear-gradient(135deg, rgb(3, 15, 55), rgb(0, 36, 84), rgb(3, 249, 249));
-        border: 2px solid aqua;
-        z-index: 0;
-        position: relative;
-        width: 100%;
-        top: 1060px;
-        border: 2px solid aqua;
-        padding: 3rem 0;
-        box-shadow: 0 0 20px rgba(0, 255, 238, 0.3);
-        border-radius: 15px;
-        transition: all 0.3s ease;
-        &:hover {
-            box-shadow:
-                0 0 40px rgba(0, 255, 238, 0.5),
-                inset 0 0 50px rgba(0, 255, 238, 0.15);
-            transform: translateY(-5px);
-        }
-        img {
-            position: relative;
-            width: 40%;
-            left: 31%;
-            border-radius: 15px;
-        }
-        h2 {
-            position: relative;
-            top: 0;
-            left: 41%;
-            color: rgb(0, 255, 238);
-            font-size: 65px;
-            text-shadow: 0 0 15px rgba(0, 255, 238, 0.8);
-        }
-        p {
-            color: white;
-            position: relative;
-            width: 90%;
-            left: 4%;
-            font-size: 35px;
-            text-align: center;
-        }
-    }
-    .second-first-year {
-        background: linear-gradient(135deg, rgb(3, 15, 55), rgb(0, 36, 84), rgb(3, 249, 249));
-        border: 2px solid aqua;
-        z-index: 0;
-        position: relative;
-        width: 100%;
-        top: 1060px;
-        border: 2px solid aqua;
-        padding: 3rem 0;
-        box-shadow: 0 0 20px rgba(0, 255, 238, 0.3);
-        border-radius: 15px;
-        transition: all 0.3s ease;
-        &:hover {
-            box-shadow:
-                0 0 40px rgba(0, 255, 238, 0.5),
-                inset 0 0 50px rgba(0, 255, 238, 0.15);
-            transform: translateY(-5px);
-        }
-        img {
-            position: relative;
-            width: 40%;
-            left: 31%;
-            border-radius: 15px;
-        }
-        h2 {
-            position: relative;
-            top: 0;
-            left: 41%;
-            color: rgb(0, 255, 238);
-            font-size: 65px;
-            text-shadow: 0 0 15px rgba(0, 255, 238, 0.8);
-        }
-        p {
-            color: white;
-            position: relative;
-            width: 90%;
-            left: 4%;
-            font-size: 35px;
-            text-align: center;
-        }
-    }
+    .first-year,
+    .second-first-year,
     .second-year {
-        background: linear-gradient(135deg, rgb(3, 15, 55), rgb(0, 36, 84), rgb(3, 249, 249));
-        border: 2px solid aqua;
-        z-index: 0;
-        position: relative;
-        width: 100%;
+        @extend %card-base;
         top: 1060px;
-        border: 2px solid aqua;
-        padding: 3rem 0;
-        box-shadow: 0 0 20px rgba(0, 255, 238, 0.3);
-        border-radius: 15px;
-        transition: all 0.3s ease;
-        &:hover {
-            box-shadow:
-                0 0 40px rgba(0, 255, 238, 0.5),
-                inset 0 0 50px rgba(0, 255, 238, 0.15);
-            transform: translateY(-5px);
-        }
+
         img {
             position: relative;
             width: 40%;
             left: 31%;
             border-radius: 15px;
         }
+
         h2 {
             position: relative;
             top: 0;
@@ -206,6 +119,7 @@
             font-size: 65px;
             text-shadow: 0 0 15px rgba(0, 255, 238, 0.8);
         }
+
         p {
             color: white;
             position: relative;
@@ -215,30 +129,19 @@
             text-align: center;
         }
     }
+
     .third-year {
-        background: linear-gradient(135deg, rgb(3, 15, 55), rgb(0, 36, 84), rgb(3, 249, 249));
-        border: 2px solid aqua;
-        position: relative;
-        z-index: 1;
-        width: 100%;
+        @extend %card-base;
         margin-top: 1060px;
-        border: 2px solid aqua;
-        padding: 3rem 0;
-        box-shadow: 0 0 20px rgba(0, 255, 238, 0.3);
-        border-radius: 15px;
-        transition: all 0.3s ease;
-        &:hover {
-            box-shadow:
-                0 0 40px rgba(0, 255, 238, 0.5),
-                inset 0 0 50px rgba(0, 255, 238, 0.15);
-            transform: translateY(-5px);
-        }
+        z-index: 1;
+
         img {
             position: relative;
             width: 40%;
             left: 31%;
             border-radius: 15px;
         }
+
         h2 {
             position: relative;
             top: 0;
@@ -247,6 +150,7 @@
             font-size: 65px;
             text-shadow: 0 0 15px rgba(0, 255, 238, 0.8);
         }
+
         p {
             color: white;
             position: relative;
@@ -259,29 +163,15 @@
 }
 
 .contrat {
-    background: linear-gradient(135deg, rgb(3, 15, 55), rgb(0, 36, 84), rgb(3, 249, 249));
-    border: 2px solid aqua;
-    z-index: 0;
-    position: relative;
-    width: 100%;
-    // margin-top: 900px;
-    border: 2px solid aqua;
-    padding: 3rem 0;
-    box-shadow: 0 0 20px rgba(0, 255, 238, 0.3);
-    border-radius: 15px;
-    transition: all 0.3s ease;
-    &:hover {
-        box-shadow:
-            0 0 40px rgba(0, 255, 238, 0.5),
-            inset 0 0 50px rgba(0, 255, 238, 0.15);
-        transform: translateY(-5px);
-    }
+    @extend %card-base;
+
     img {
         position: relative;
         width: 40%;
         left: 31%;
         border-radius: 15px;
     }
+
     h2 {
         position: relative;
         top: 0;
@@ -290,6 +180,7 @@
         font-size: 65px;
         text-shadow: 0 0 15px rgba(0, 255, 238, 0.8);
     }
+
     p {
         color: white;
         position: relative;
@@ -297,5 +188,149 @@
         left: 4%;
         font-size: 35px;
         text-align: center;
+    }
+}
+
+
+/* =============================================
+   RESPONSIVE — TABLETTES (max-width: 1024px)
+   ============================================= */
+@media screen and (max-width: 1024px) {
+
+    /* Hero section */
+    .content {
+        position: relative;
+        width: 100%;
+        height: auto;
+        left: 0;
+        min-height: 100svh;
+        box-sizing: border-box;
+
+        h1 {
+            font-size: clamp(28px, 6vw, 50px);
+            white-space: normal;
+            word-break: break-word;
+        }
+
+        p {
+            font-size: clamp(16px, 2.5vw, 24px);
+        }
+    }
+
+    /* Toutes les cards : on annule les top/margin-top fixes en pixels
+       et on laisse le flux normal gérer l'espacement */
+    .introduction,
+    .epitech .first-year,
+    .epitech .second-first-year,
+    .epitech .second-year,
+    .epitech .third-year,
+    .contrat {
+        top: 0;
+        margin-top: 30px;
+        padding: 2rem 16px;
+        box-sizing: border-box;
+
+        img {
+            width: 70%;
+            left: 50%;
+            transform: translateX(-50%);
+            display: block;
+        }
+
+        h2 {
+            left: 0;
+            font-size: 46px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 24px;
+            left: 0;
+            width: 100%;
+        }
+    }
+}
+
+
+/* =============================================
+   RESPONSIVE — SMARTPHONES (max-width: 768px)
+   ============================================= */
+@media screen and (max-width: 768px) {
+
+    .content {
+        padding: 30px 5% 30px;
+
+        h1 {
+            font-size: clamp(22px, 7vw, 36px);
+        }
+
+        p {
+            font-size: clamp(14px, 4vw, 20px);
+        }
+    }
+
+    .introduction,
+    .epitech .first-year,
+    .epitech .second-first-year,
+    .epitech .second-year,
+    .epitech .third-year,
+    .contrat {
+        margin-top: 20px;
+        padding: 1.5rem 12px;
+
+        img {
+            width: 90%;
+        }
+
+        h2 {
+            font-size: 34px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+
+/* =============================================
+   RESPONSIVE — PETITS SMARTPHONES (max-width: 480px)
+   ============================================= */
+@media screen and (max-width: 480px) {
+
+    .content {
+        padding: 20px 4% 20px;
+
+        h1 {
+            font-size: clamp(20px, 8vw, 28px);
+            -webkit-text-stroke: 0.5px rgb(0, 255, 234);
+        }
+    }
+
+    .introduction,
+    .epitech .first-year,
+    .epitech .second-first-year,
+    .epitech .second-year,
+    .epitech .third-year,
+    .contrat {
+        margin-top: 14px;
+        border-radius: 10px;
+        padding: 1rem 10px;
+
+        img {
+            width: 95%;
+        }
+
+        h2 {
+            font-size: 26px;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        &:hover {
+            transform: none;
+        }
     }
 }
