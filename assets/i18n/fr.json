@@ -1,0 +1,119 @@
+{
+  "header": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "contact": "Contact",
+    "parcours": "Parcours"
+  },
+
+  "home": {
+    "title": "BIENVENUE SUR MON PORTFOLIO",
+    "intro": "Ne jamais laisser tomber, même dans les moments les plus durs",
+
+    "about_title": "QUI SUIS-JE ?",
+    "about_text": "Développeur Front-End avec plus de 3 ans d’expérience, spécialisé dans le développement web et intéressé par le domaine du jeu vidéo et du numérique. Passionné par l’univers du jeu et du jouet, je souhaite mettre mes compétences techniques, ma créativité et mon sens du relationnel au service d’un environnement mêlant innovation et expérience client. Rigoureux et motivé, j’aime relever de nouveaux défis et continuer à développer mes compétences.",
+
+    "qualities_title": "Mes qualités",
+
+    "quality_invested_title": "INVESTI",
+    "quality_invested_text": "Je mets beaucoup d'efforts et d'attention dans mon travail",
+
+    "quality_mind_title": "VIF D'ESPRIT",
+    "quality_mind_text": "J'assimile rapidement les nouvelles informations, ce qui me permet d'être efficace et performant dans mon travail.",
+
+    "quality_persistent_title": "PERSÉVÉRANT",
+    "quality_persistent_text": "Je ne renonce pas si facilement, je continue à travailler malgré les difficultés, les obstacles ou les échecs.",
+
+    "projects_title": "PROJETS",
+    "projects_text": "Dans cette partie, vous trouverez tous les projets que j'ai réalisé pour que vous ayez un aperçu de mes compétences dans le développement informatique, dans différents domaines qui sont le développement web et le développement de jeux vidéos, avec les différents langages de programmations que j'ai utilisé sur ces différents projets.",
+
+    "projects_button": "Vers la page Projets",
+
+    "parcours_title": "PARCOURS",
+    "parcours_text": "Découvrez mon parcours en développement informatique, construit à EPITECH. J’y présente également mes expériences de stage en entreprise, ainsi que mon expérience professionnelle en CDDU, où j’ai animé des ateliers LEGO pour enfants, mêlant pédagogie et passion.",
+
+    "parcours_button": "Vers la page Parcours"
+  },
+  "projects": {
+
+    "intro": "Vous découvrirez dans cette partie certains projets que j'ai réalisés à EPITECH, ainsi que des projets de mon stage.",
+
+    "epitechTitle": "PROJETS À EPITECH",
+    "epitechDescription": "Dans cette partie, vous verrez des projets que j'ai réalisés durant mes 4 années à EPITECH. Vous trouverez certains projets réalisés, et si vous souhaitez en découvrir davantage, n'hésitez pas à me contacter.",
+
+    "stageTitle": "STAGE",
+    "stageDescription": "Durant mes années à EPITECH, j'ai réalisé des stages de 4 à 5 mois. Vous découvrirez certains projets réalisés durant ces expériences.",
+
+    "webcupTitle": "WEBCUP",
+    "webcupDescription": "J'ai participé à un événement annuel nommé WebCup, dont l'objectif est de créer un site web en 24 heures sur un thème donné.",
+
+    "githubLink": "Lien GitHub",
+
+    "sokoban": {
+      "title": "SOKOBAN",
+      "description": "Sokoban est un jeu de réflexion recréé en C avec la bibliothèque ncurses, entièrement jouable dans le terminal, sans interface graphique."
+    },
+
+    "rpg": {
+      "title": "MON PREMIER RPG",
+      "description": "RPG est un jeu de rôle développé en équipe en 4 semaines, en langage C avec la bibliothèque graphique CSFML. Il s'agit de mon premier projet de ce type."
+    },
+
+    "archik": {
+      "title": "ARCHIK INTÉRIEUR",
+      "description": "Archik Intérieur est un site que j'ai fait pour une cliente lors de mon stage. Ce fut le premier projet que j'ai dû réalisé lors de ce stage. Je vous laisse aller le voir par vous-même."
+    },
+
+    "jackpot": {
+      "title": "QUI VEUT GAGNER LE JACKPOT ?",
+      "description": "QUI VEUT GAGNER LE JACKPOT ? est un mini-jeu que j'ai réalisé en Angular durant le dernier mois de mon stage. Ce jeu reprend une machine à sous que l'on peut voir dans les casinos. Je vous laisse aller testez par vous-même."
+    },
+
+    "sga": {
+      "title": "SEARCH GUARDIAN ANGEL",
+      "description": "Search Guardian Angel est un site web développé en 24 heures lors de la WebCup, visant à mettre en relation des personnes avec des anges gardiens pour des services du quotidien."
+    },
+
+    "theend": {
+      "title": "THEEND.PAGE",
+      "description": "TheEnd.page est un site qui permet aux gens qui sont en fin de projet ou que leur adventure professionnelle se termine, de pouvoir créer sa propre page de départ personnalisée."
+    }
+  },
+  "parcours": {
+    "heroTitle": "Découvrez mon parcours entre études à EPITECH et premières expériences professionnelles",
+    "heroDescription": "Chaque expérience, chaque échec et chaque réussite deviennent une partie de l’histoire que l’on écrit.",
+
+    "introductionTitle": "Introduction",
+    "introductionText": "EPITECH est une école spécialisée dans l’informatique et les nouvelles technologies, basée sur une pédagogie axée sur la pratique, l’autonomie et la réalisation de projets concrets.\n\nCette formation m’a permis de développer mes compétences techniques, d’apprendre à travailler en équipe et de progresser à travers différents projets, tout en construisant mon expérience dans le domaine du développement informatique.",
+
+
+    "firstYear": {
+      "title": "Première année",
+      "text": "Cette première année a été un défi pour moi. J’ai dû m’adapter à la pédagogie d’EPITECH, notamment avec la Piscine, un programme intensif basé sur des exercices quotidiens permettant de développer ses compétences en programmation. J’ai découvert plusieurs langages comme le C, Python, HTML et CSS à travers différents projets, notamment la création de jeux vidéo, ce qui m’a permis de découvrir de nouveaux aspects du développement informatique. EPITECH nous a également appris à coder avec des normes strictes. Nos projets étaient évalués par Marvin, un système de correction automatique qui vérifiait la qualité du code, sa compilation ainsi que le respect des bonnes pratiques de programmation. L’ensemble des projets étant réalisés en anglais, nous avons également suivi des cours d’anglais et passé des tests similaires au TOEIC, avec un score minimum requis pour valider l’année. Je n’ai pas réussi à atteindre ce score à ce moment-là, en raison de mon niveau d’anglais encore insuffisant. Malgré ces difficultés, cette expérience m’a permis d’identifier mes axes d’amélioration et de choisir de redoubler afin de renforcer mes bases et poursuivre mon évolution dans le développement informatique."
+    },
+
+
+    "redoublement": {
+      "title": "Redoublement",
+      "text": "Ce redoublement a été une étape importante et nécessaire dans mon parcours à EPITECH. Il m’a permis de consolider mes bases, d’approfondir mes connaissances et de mieux comprendre les concepts fondamentaux à travers des projets plus complexes. Cette année supplémentaire a été une véritable réussite pour moi. J’ai réussi à valider l’ensemble de mes projets ainsi que la Piscine, tout en atteignant le niveau d’anglais requis pour valider mon année. Cette expérience m’a permis de prendre davantage confiance en mes compétences et de mieux comprendre mon fonctionnement en tant que développeur. Ce redoublement m’a également permis de me surpasser et de prouver, à moi- même comme aux autres, ma capacité à persévérer malgré les difficultés rencontrées. J’ai également pu préparer mon entrée en stage de deuxième année grâce à la réalisation de mon CV."
+    },
+
+
+    "secondYear": {
+      "title": "Deuxième année",
+      "text": "Ma deuxième année s'est divisée en deux parties. La première partie de mon année a été consacrée à un stage de 5 mois en télétravail dans une entreprise en Belgique spécialisée dans le développement web pour des clients. Cette expérience m’a permis de découvrir le monde de l’entreprise, de comprendre son fonctionnement et de travailler sur de véritables projets destinés à des clients. J’ai pu développer davantage mes compétences en développement web avec des technologies comme React, Angular, HTML et CSS. J’ai également eu l’opportunité de gérer une petite équipe de développeurs, ce qui m’a permis d’améliorer mes compétences en organisation, communication et gestion de projet. La deuxième partie de l’année s’est déroulée à EPITECH, avec le retour à l’école pour réaliser les rapports de stage et poursuivre notre progression à travers différents projets. La majorité de ces projets étaient réalisés en groupe, nous permettant de travailler davantage la collaboration et la répartition des tâches. Durant cette période, nous avons découvert de nouvelles technologies et langages, notamment le C++ et l’Haskell lors de la Piscine. Les différents projets réalisés autour du C++ nous ont permis d’approfondir nos connaissances, notamment dans la programmation réseau avec la création de systèmes client- serveur. Cette année a été particulièrement challengeante, mais elle m’a permis de progresser techniquement et humainement. Malgré les difficultés rencontrées, j’ai réussi à valider mon année et à poursuivre mon parcours en troisième année."
+    },
+
+
+    "thirdYear": {
+      "title": "Troisième année",
+      "text": "Ma troisième année à EPITECH s’est concentrée sur des projets plus avancés ainsi qu’une période de stage de quatre mois en entreprise. L’année a débuté avec la Piscine, durant laquelle nous avons dû réaliser un site web répondant aux besoins d’un \"client\". Cette première étape nous a permis de mettre en pratique nos compétences en développement web tout en travaillant sur un projet avec des contraintes proches du monde professionnel. Après cette période, nous avons eu l’opportunité de choisir entre deux grands projets s’étalant sur plusieurs mois. Le premier consistait à développer un jeu vidéo en ligne permettant à plusieurs joueurs de se connecter sur un serveur. Le second était la création d’un site web complet avec une partie front-end et back-end. Ces projets, réalisés sur une durée d’environ deux à trois mois, nous ont permis d’approfondir nos compétences techniques et notre autonomie. En parallèle, plusieurs mini-projets complétaient notre formation, notamment autour des mathématiques, de l’Haskell et d’autres notions techniques. Cette année m’a permis de continuer à développer mes compétences sur des projets complexes, tout en renforçant mon autonomie et ma capacité à m’adapter à de nouveaux défis. Le stage de quatre mois a constitué une étape importante de mon parcours, me permettant d’appliquer mes connaissances en conditions réelles, de découvrir davantage l’environnement professionnel et de consolider mes acquis en développement."
+    },
+
+
+    "contract": {
+      "title": "Premier contrat",
+      "text": "Après ma troisième année à EPITECH, j’ai eu l’opportunité de décrocher mon premier contrat en tant qu’animateur d’ateliers dans un centre. J’ai d’abord effectué un stage de deux semaines avant d’évoluer vers un contrat à durée déterminée d’usage. Cette expérience m’a permis de développer mes compétences en organisation et en communication, tout en découvrant le travail auprès d’un public jeune. J’ai également eu l’occasion d’animer des ateliers autour d’une activité qui me passionne, les LEGO, et de participer à différents événements, ce qui a rendu cette expérience particulièrement enrichissante."
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "header": {
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact",
+    "parcours": "Career"
+  },
+
+  "home": {
+    "title": "WELCOME TO MY PORTFOLIO",
+    "intro": "Never give up, even in the hardest moments",
+
+    "about_title": "WHO AM I?",
+    "about_text": "Front-End Developer with over 3 years of experience, specialized in web development and interested in video games and digital technologies. Passionate about the world of games and toys, I aim to use my technical skills, creativity, and communication abilities in an environment that combines innovation and user experience. Hard-working and motivated, I enjoy taking on new challenges and continuously improving my skills.",
+
+    "qualities_title": "My qualities",
+
+    "quality_invested_title": "INVESTED",
+    "quality_invested_text": "I put a lot of effort and attention into my work",
+
+    "quality_mind_title": "QUICK THINKER",
+    "quality_mind_text": "I quickly absorb new information, which allows me to be efficient and effective in my work.",
+
+    "quality_persistent_title": "PERSISTENT",
+    "quality_persistent_text": "I do not give up easily and keep working despite difficulties, obstacles, or failures.",
+
+    "projects_title": "PROJECTS",
+    "projects_text": "In this section, you will find all the projects I have completed to give you an overview of my skills in software development, including web and game development, with the different programming languages I have used.",
+
+    "projects_button": "Go to Projects",
+
+    "parcours_title": "CAREER",
+    "parcours_text": "Discover my academic journey in software development at EPITECH. I also present my internship experiences in companies, as well as my professional experience running LEGO workshops for children, combining education and passion.",
+
+    "parcours_button": "Go to Career"
+  },
+  "projects": {
+
+    "intro": "Discover some of the projects I created at EPITECH, as well as projects developed during my internship.",
+
+    "epitechTitle": "EPITECH PROJECTS",
+
+    "epitechDescription": "In this section, you will see some of the projects I worked on during my four years at EPITECH. You will find details of some of the projects I have completed, and if you would like to find out more, please do not hesitate to contact me.",
+
+
+    "stageTitle": "INTERNSHIP",
+
+    "stageDescription": "During my years at EPITECH, I completed internships lasting 4 to 5 months.",
+
+
+    "webcupTitle": "WEBCUP",
+
+    "webcupDescription": "I participated in an annual event called WebCup, where the goal is to create a website within 24 hours.",
+
+    "githubLink": "GitHub Link",
+
+    "sokoban": {
+      "title": "SOKOBAN",
+      "description": "Sokoban is a puzzle game rewritten in C using the ncurses library; it can be played entirely in the terminal, without a graphical user interface."
+    },
+
+    "rpg": {
+      "title": "MY FIRST RPG",
+      "description": "RPG is a role-playing game developed by a team over four weeks, written in C using the CSFML graphics library. This is my first project of this kind."
+    },
+
+    "archik": {
+      "title": "ARCHIK INTERIOR",
+      "description": "Archik Intérior is a website I created for a client during my work placement. It was the first project I had to carry out during that placement. I’ll let you take a look for yourselves."
+    },
+
+    "jackpot": {
+      "title": "WHO WANTS TO WIN THE JACKPOT?",
+      "description": "WHO WANTS TO WIN THE JACKPOT? is a mini-game I built using Angular during the final month of my work placement. The game is modelled on the slot machines you see in casinos. Why not give it a go for yourself?"
+    },
+
+    "sga": {
+      "title": "SEARCH GUARDIAN ANGEL",
+      "description": "Search Guardian Angel is a website developed in 24 hours during the WebCup, designed to connect people with guardian angels for everyday services."
+    },
+
+    "theend": {
+      "title": "THEEND.PAGE",
+      "description": "TheEnd.page is a website that allows people who are coming to the end of a project or whose professional journey is drawing to a close to create their own personalised landing page."
+    }
+
+  },
+  "parcours": {
+
+    "heroTitle": "Discover my journey between my studies at EPITECH and my first professional experiences",
+
+    "heroDescription": "Every experience, every failure and every success become part of the story we write.",
+
+
+    "introductionTitle": "Introduction",
+
+    "introductionText": "EPITECH is a school specialized in computer science and new technologies, based on a teaching approach focused on practice, autonomy and the creation of concrete projects.\n\nThis training allowed me to develop my technical skills, learn how to work in a team and improve through different projects, while building my experience in the field of software development.",
+
+
+
+    "firstYear": {
+
+      "title": "First year",
+
+      "text": "This first year has been a challenge for me. I’ve had to adapt to EPITECH’s teaching methods, particularly the ‘Piscine’ – an intensive programme based on daily exercises designed to develop programming skills. I’ve learnt several languages, such as C, Python, HTML and CSS, through various projects, including the creation of video games, which has allowed me to discover new aspects of software development. EPITECH also taught us to code to strict standards. Our projects were assessed by Marvin, an automated marking system that checked the quality of the code, its compilation and adherence to good programming practices. As all projects were carried out in English, we also attended English lessons and sat tests similar to the TOEIC, with a minimum score required to pass the year. I was unable to achieve this score at the time, as my level of English was still insufficient. Despite these difficulties, this experience enabled me to identify areas for improvement and decide to repeat the year in order to strengthen my foundations and continue my development in software development."
+
+    },
+
+
+
+    "redoublement": {
+
+      "title": "Repeating the year",
+
+      "text": "Repeating the year was an important and necessary step in my journey at EPITECH. It enabled me to consolidate my foundations, deepen my knowledge and gain a better understanding of fundamental concepts through more complex projects. This extra year was a real success for me. I managed to pass all my projects as well as the ‘Piscine’, whilst also achieving the required level of English to pass my year. This experience has given me greater confidence in my skills and a better understanding of how I work as a developer. Repeating the year also allowed me to push myself beyond my limits and prove, both to myself and to others, my ability to persevere despite the difficulties I faced. I was also able to prepare for my second-year work placement by putting together my CV."
+
+    },
+
+
+
+    "secondYear": {
+
+      "title": "Second year",
+
+      "text": "My second year was divided into two parts. The first part of the year was spent on a five-month remote work placement with a company in Belgium specialising in web development for clients. This experience allowed me to discover the corporate world, understand how it works and work on real projects for clients. I was able to further develop my web development skills using technologies such as React, Angular, HTML and CSS. I also had the opportunity to manage a small team of developers, which helped me improve my organisational, communication and project management skills. The second half of the year was spent at EPITECH, where we returned to the college to complete our work placement reports and continue our development through various projects. Most of these projects were carried out in groups, enabling us to practise collaboration and task allocation further. During this period, we discovered new technologies and programming languages, notably C++ and Haskell during the ‘Piscine’ programme. The various projects we undertook using C++ allowed us to deepen our knowledge, particularly in network programming through the creation of client-server systems.This year has been particularly challenging, but it has enabled me to develop both technically and personally. Despite the difficulties I faced, I managed to pass my year and move on to my third year."
+
+    },
+
+
+
+    "thirdYear": {
+
+      "title": "Third year",
+
+      "text": "My third year at EPITECH focused on more advanced projects as well as a four-month work placement. The year began with the ‘Piscine’, during which we had to build a website to meet the needs of a ‘client’. This initial stage enabled us to put our web development skills into practice whilst working on a project with constraints similar to those in the professional world. Following this, we had the opportunity to choose between two major projects spanning several months. The first involved developing an online video game allowing multiple players to connect to a server. The second was the creation of a comprehensive website with both front-end and back-end components. These projects, which took around two to three months to complete, enabled us to deepen our technical skills and increase our independence. At the same time, several mini-projects complemented our training, particularly in mathematics, Haskell and other technical concepts. This year allowed me to continue developing my skills on complex projects, whilst strengthening my independence and my ability to adapt to new challenges. The four-month placement was a significant milestone in my career, enabling me to apply my knowledge in real-world situations, gain further insight into the professional environment and consolidate my development skills."
+
+    },
+
+
+
+    "contract": {
+
+      "title": "First contract",
+
+      "text": "After my third year at EPITECH, I had the opportunity to secure my first contract as a workshop leader at a centre. I first undertook a two-week work placement before moving on to a standard fixed-term contract. This experience enabled me to develop my organisational and communication skills, whilst gaining an insight into working with young people. I also had the chance to run workshops based on a hobby I’m passionate about – LEGO – and to take part in various events, which made this experience particularly rewarding."
+
+    }
+
+  }
+}
