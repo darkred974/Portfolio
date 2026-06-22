@@ -355,32 +355,34 @@
     }
 
     .presentation {
-        height: auto;
-        min-height: 600px;
+        height: 950px;
         
         img {
             position: relative;
-            left: 0;
-            width: 100%;
-            height: 400px;
+            top: 130px;
+            left: 23%;
+            width: 50%;
+            height: 450px;
         }
         h2 {
-            position: relative;
-            left: 200px;
-            top: 420px;
+            z-index: 0;
+            left: 33%;
+            position: absolute;
+            top: 0px;
             font-size: 50px;
         }
         p {
             left: 5%;
             width: 90%;
-            top: 500px;
-            font-size: 25px;
+            top: 590px;
+            font-size: 32px;
             position: absolute;
         }
     }
 
     .qualities {
-        margin-top: 2200px;
+        z-index: 0;
+        margin-top: 1300px;
         
         h2 {
             font-size: 70px;
@@ -476,7 +478,7 @@
     }
 
     .presentation {
-        min-height: 550px;
+        height: 500px;
         
         img {
             position: relative;
@@ -485,7 +487,7 @@
             top: 80px;
         }
         h2 {
-            z-index: 1;
+            z-index: 0;
             position: absolute;
             top: 0px;
             left: 120px;
@@ -498,8 +500,9 @@
     }
 
     .qualities {
+        z-index: 0;
         position: relative;
-        top: 500px;
+        top: 0px;
         h2 {
             font-size: 50px;
             margin-bottom: 40px;
@@ -524,8 +527,6 @@
     }
 
     .Projets_part {
-        position: relative;
-        top: 400px;
         h2 {
             font-size: 36px;
         }
@@ -538,8 +539,6 @@
     }
 
     .Parcours_part {
-        position: relative;
-        top: 200px;
         h1 {
             font-size: 36px;
         }
@@ -587,8 +586,8 @@
     }
 
     .qualities {
-        margin-top: 700px;
-        padding: 0 10px;
+        // margin-top: 00px;
+        // padding: 0 10px;
         
         h2 {
             font-size: 36px;
