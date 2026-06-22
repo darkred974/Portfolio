@@ -119,7 +119,7 @@
     position: absolute;
     width: 100%;
     left: 0%;
-    top: 100%; 
+    top: 100%;
     height: 800px;
     border-top: 2px solid aqua;
     border-bottom: 2px solid aqua;
@@ -142,6 +142,7 @@
         object-fit: cover;
     }
     h2 {
+        z-index: 0;
         color: rgb(0, 255, 238);
         text-shadow: 0 0 20px rgba(0, 255, 238, 0.8);
         font-size: 70px;
